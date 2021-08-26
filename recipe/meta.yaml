@@ -1,5 +1,5 @@
 {% set name = "elara" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elara-{{ version }}.tar.gz
-  sha256: 7c512b97110467e2e3bb962bbe248d2f0eb54f216ee38152c5c1b8107f497d00
+  sha256: ceaf5027946664aeffed88e04b2c034b55dab821293804c740754b8f3c10266f
 
 build:
   number: 0
@@ -39,10 +39,10 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   description: |
-     Elara DB is a NoSQL database written for python that can also be used as a
-      fast in-memory cache for JSON-serializable data. It includes various
-      methods and features to manipulate data structures in-memory, to protect
-      database files, and also to export data.
+    Elara DB is a NoSQL database written for python that can also be used as a
+     fast in-memory cache for JSON-serializable data. It includes various
+     methods and features to manipulate data structures in-memory, to protect
+     database files, and also to export data.
 
 extra:
   recipe-maintainers:
