@@ -1,5 +1,5 @@
 {% set name = "elara" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/elara-{{ version }}.tar.gz
-  sha256: ceaf5027946664aeffed88e04b2c034b55dab821293804c740754b8f3c10266f
+  sha256: 2758e9245cad36126330797aee70744f52d77dc5ce50f16ea231519d34741f8a
 
 build:
   number: 0
